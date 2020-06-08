@@ -58,7 +58,9 @@ function App() {
         {recipes && !alert ? (
           recipes.map((r) => <Recipe key={random()} recipe={r} />)
         ) : (
-          <h3>4O4 No Data</h3>
+          <h2 style={{ fontSize: "50px", letterSpacing: "3px", color: "red" }}>
+            4O4 No Data
+          </h2>
         )}
       </div>
     </div>
