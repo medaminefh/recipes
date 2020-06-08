@@ -22,7 +22,6 @@ function App() {
         setAlert("food doesn't exist");
       }
       if (result.data.more) {
-        console.log(result.data);
         setQuery("");
         setAlert("");
         setRecipes(result.data.hits);
